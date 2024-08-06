@@ -27,7 +27,8 @@ post_audit_outfile: "{{ audit_out_dir }}/{{ ansible_facts.hostname }}-{{ benchma
 audit_bin_version:
     release: v0.4.4
     AMD64_checksum: 'sha256:1c4f54b22fde9d4d5687939abc2606b0660a5d14a98afcd09b04b793d69acdc5'
-    ARM64_checksum: 'sha256:bca8c898bfd35b94c51455ece6193c95e2cd7b2b183ac2047b2d76291e73e47d'
+    ARM64_checksum: 'sha256:fd76103dd6f373d48317b19542e4556cd27a06d415638561d410dfc139af19c8'
+
 audit_bin_path: /usr/local/bin/
 audit_bin: "{{ audit_bin_path }}goss"
 audit_format: json
